@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>vsnasm</id>
+    <version>2.14</version>
+    <title>The Netwide Assembler</title>
+    <authors>Simon Tatham, Julian Hall, H. Peter Anvin</authors>
+    <owners>AlexAltea</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- Docuemtned but doesn't work as it's not in the XSD...
+    <license type="expression">BSD-2-Clause</license>
+    -->
+    <projectUrl>https://www.nasm.us/</projectUrl>
+    <iconUrl>https://www.nasm.us/images/nasm.png</iconUrl>
+    <developmentDependency>true</developmentDependency>
+    <repository type="git" url="https://github.com/maxim-zhao/VSNASM"/>
+    <description>The Netwide Assembler is an assembler for the Intel x86 architecture.
+
+      This package is based on https://github.com/ShiftMediaProject/VSNASM and supports Visual Studio 2010, 2012, 2013, 2015 and 2017.
+      
+      Note that this package is meant to replace older/broken NuGet packages "nasm" and "nasm2".</description>
+    <summary>The Netwide Assembler is an assembler for the Intel x86 architecture.</summary>
+    <releaseNotes>Release notes can be found at: http://www.nasm.us/doc/nasmdocc.html</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>nasm native assembler</tags>
+  </metadata>
+  <files>
+    <file src="nasm.props" target="build/native" />
+    <file src="nasm.targets" target="build/native" />
+    <file src="nasm.xml" target="build/native" />
+    <file src="nasm.exe" target="tools" />
+  </files>
+</package>
