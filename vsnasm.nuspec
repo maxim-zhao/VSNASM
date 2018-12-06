@@ -7,9 +7,10 @@
     <authors>Simon Tatham, Julian Hall, H. Peter Anvin</authors>
     <owners>AlexAltea</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- Docuemtned but doesn't work as it's not in the XSD...
+    <!-- TOTO use this when it becomes supported
     <license type="expression">BSD-2-Clause</license>
     -->
+    <licenseUrl>https://raw.githubusercontent.com/maxim-zhao/VSNASM/master/LICENSE.nasm</licenseUrl>
     <projectUrl>https://www.nasm.us/</projectUrl>
     <iconUrl>https://www.nasm.us/images/nasm.png</iconUrl>
     <developmentDependency>true</developmentDependency>
